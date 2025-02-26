@@ -1,5 +1,4 @@
-function LongestWord() {
-  let sentence = "I love my toys hungry helloooo"; 
+function longestWord(sentence) {
   let words = sentence.split(" "); // Split sentence into words
   let longest = ""; // Variable to store the longest word
 
@@ -12,4 +11,4 @@ function LongestWord() {
   return longest; // Return the longest word
 }
 
-console.log(LongestWord()); // Output: "hungry"
+console.log(longestWord("I love my toys hungry")); 
